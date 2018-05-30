@@ -1,0 +1,1055 @@
+
+@font-face {
+			font-family: "RalewayRegular";
+			src: url("../CSS/fonts/RalewayRegular/RalewayRegular.eot");
+			src: url("../CSS/fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+			url("../CSS/fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+			url("../CSS/fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "RalewaySemiBold";
+			src: url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.eot");
+			src: url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
+			url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"),
+			url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+ body {
+	font-family: 'Source Sans Pro', 'sans-serif';
+	
+} 
+/*ХЕДЕР*/
+
+header {
+	background-image: url(../image/bez__tatoo.jpg);
+	background-size: cover;
+	
+}
+
+.logo-img {
+	margin: 10px 0px 0px 65px;
+}
+
+.container-img {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.block-img {
+	height: 85px;
+}
+.navigation {
+	margin: 20px 0px 0px 20px;
+}
+
+.navigation_link {
+	font-size: 22px;
+	color: #000;
+	position: relative;
+	transition:0.5s;
+}
+
+.navigation_link:last-child {
+	font-size: 22px;
+}
+
+.navigation_link_responsiv{
+	display: none;
+	position: relative;
+}
+
+.navigation_link_responsiv::before {
+	content: url(../image/phone.png);
+	position: absolute;
+    left: 23px;
+     top: 12px;
+}
+
+.block-link-responsiv {
+	display: none;
+}
+.article-title {
+	margin-top: 155px;
+	font-size: 55px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'Raleway', 'sans-serif';
+}
+
+.price-list {
+	text-decoration: none;
+	margin-left: 182px;
+}
+
+.article-paragraph {
+	font-size: 32px;
+	text-align: center;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'Raleway', 'sans-serif';
+}
+
+.buttongetimg {
+	background-image: url(../image/butoon-get.png);
+	background-size: cover;
+	width: 327px;
+    height: 70px;
+   border: transparent;
+	transition: 1s ease-out 1s;
+	overflow: hidden;
+	margin: 40px auto 130px auto;
+	display: block;
+}
+
+.buttongetimg::hover {
+	display: none;
+	transition: 1s ease-out 1s;
+}
+
+.navigation_link::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    background-color: #000;
+    top: 40px;
+    left: 14px;
+	transition:1s;
+}
+
+/*ХЕДЕР ЕНД*/
+
+/* SECTION ПОСЛУГИ*/
+
+.main-img {
+	margin: 200px auto 0px auto;
+    display: block;
+}
+
+.main-article-title {
+	text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+	font-family: 'Raleway', 'sans-serif';
+}
+
+.main-paragraph {
+	text-align: center;
+    margin: 39px auto 130px auto;
+    font-size: 20px;
+    font-family:'Raleway', 'sans-serif';
+}
+
+.btn-center {
+	display: block;
+	margin: 0 auto;
+}
+
+.modal-border {
+	border: transparent;
+}
+
+.modal-price {
+	border-radius: 17px;
+	border: transparent;
+}
+
+.btn-price {
+	display: block;
+	background-image: url('../image/btn_price_black_mini.png');
+	background-size: cover;
+	border: transparent;
+	border-radius: 8px;
+    width: 84px;
+    height: 35px;
+}
+
+.btn-price:hover {
+	display: block;
+	background-image: url('../image/btn_price_gray_mini.png');
+	background-size: cover;
+    transition: 1s ease-out 1s;
+}
+/* SECTION ПОСЛУГИ END*/
+
+
+/* SECTION ПРО НАС*/
+
+.bgrnd-about-us {
+	background-image: url(../image/about-us-foto.jpg);
+	background-size:cover;
+}
+
+
+.about-us-title {
+	margin: 200px 0px 43px 70px;
+	font-size: 55px;
+	letter-spacing: 0.55px;
+	font-family: 'Raleway', 'sans-serif';
+}
+.about-us-paragraph {
+	margin: 0px 0px 200px 30px;
+	font-size: 25px;
+	letter-spacing: 0.25px;
+	font-family:'Raleway', 'sans-serif';
+}
+
+/* СЛАЙДЕР БООТСТРАП 4*/
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.slider-box {
+	padding: 0px;
+	display: none;
+}
+.slider-controls {
+	background-color: rgba(36, 36, 36, 0.5);
+	width: 40px;
+}
+
+ .slide-indicators .active {
+	background-color: rgba(36, 36, 36, 0.5);
+}
+
+/* SECTION КОНТАКТИ*/
+
+.contact-title {
+	font-size: 55px;
+	font-family: "Source Sans Pro";
+	letter-spacing: 0.55px;
+	margin: 100px 0px 99px 70px;
+}
+
+.contact-article {
+	font-family: "Raleway", 'sans-serif';
+	font-weight: 600;
+	font-size: 25px;
+	letter-spacing: 0.25px;
+	margin-top: 10px;
+}
+
+.contact-paragraph {
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 25px;
+	letter-spacing: 0.25px;
+	color: #000;
+}
+
+.contact-box {
+	margin: 0px 0px 70px 70px;
+}
+
+.form-box {
+	margin-top: 100px;
+}
+
+/* SECTION ФОРМА ЗАПОВНЕННЯ*/
+
+.input-box {
+	font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+	border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+	margin: 0px 0px 50px 70px;
+}
+
+.input-box-message {
+	font-family:'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+	border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+	margin: 0px 0px 50px 0px;
+}
+
+.btn-box {
+	width: 327px;
+	height: 70px;
+	background-color: #242424;
+	border: none;
+	color: #ffffff;
+	font-family:'Raleway', 'sans-serif';
+	font-size: 34px;
+	text-transform: uppercase;
+	letter-spacing: 0.34px;
+	margin: 81px 0px 50px 0px;
+}
+
+	/* SECTION ПІДВАЛ*/
+
+
+.foot-link {
+	display: inline-block;
+}
+
+.foot-box {
+	background-color: #242424;
+	height: 70px;
+}
+
+.foot-logo {
+	display: block;
+	margin: 0px auto;
+}
+
+.foot-social {
+	margin: 0px 10px;
+}
+
+.social-box{
+	margin: 0px auto;
+	text-align: center;
+	
+}
+
+.copyright {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px;
+	
+}
+
+		/* CALL BACK BTN */
+
+ #popup__toggle {
+	 bottom:25px;right:15px;position:fixed;z-index:999;
+}
+.img-circle {
+	background-color:#29AEE3;box-sizing:content-box;-webkit-box-sizing:content-box;
+}
+.circlephone {box-sizing:content-box;-webkit-box-sizing:content-box;border: 2px solid #29AEE3;width:150px;height:150px;bottom:-25px;right:10px;position:absolute;-webkit-border-radius:100%;-moz-border-radius: 100%;border-radius: 100%;opacity: .5;-webkit-animation: circle-anim 2.4s infinite ease-in-out !important;-moz-animation: circle-anim 2.4s infinite ease-in-out !important;-ms-animation: circle-anim 2.4s infinite ease-in-out !important;-o-animation: circle-anim 2.4s infinite ease-in-out !important;animation: circle-anim 2.4s infinite ease-in-out !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
+.circle-fill{box-sizing:content-box;-webkit-box-sizing:content-box;background-color:#29AEE3;width:100px;height:100px;bottom:0px;right:35px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;-webkit-animation: circle-fill-anim 2.3s infinite ease-in-out;-moz-animation: circle-fill-anim 2.3s infinite ease-in-out;-ms-animation: circle-fill-anim 2.3s infinite ease-in-out;-o-animation: circle-fill-anim 2.3s infinite ease-in-out;animation: circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
+.img-circle{box-sizing:content-box;-webkit-box-sizing:content-box;width:72px;height:72px;bottom: 14px;right: 49px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;opacity: .7;}
+.img-circleblock{box-sizing:content-box;-webkit-box-sizing:content-box;width:72px;height:72px;background-image:url(../image/mini.png);background-position: center center;background-repeat:no-repeat;animation-name: tossing;-webkit-animation-name: tossing;animation-duration: 1.5s;-webkit-animation-duration: 1.5s;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+.img-circle:hover{opacity: 1;}
+
+/* Placeholder style */
+
+   .input-box::-webkit-input-placeholder {color:#000;}
+   .input-box::-moz-placeholder           {color:#000;}/* Firefox 19+ */
+   .input-box:-moz-placeholder            {color:#000;}/* Firefox 18- */
+   .input-box:-ms-input-placeholder     {color:#000;}
+
+   .input-box-message::-webkit-input-placeholder {color:#000;}
+   .input-box-message::-moz-placeholder          {color:#000;}/* Firefox 19+ */
+   .input-box-message:-moz-placeholder           {color:#000;}/* Firefox 18- */
+   .input-box-message:-ms-input-placeholder      {color:#000;}
+
+
+   .input-box:focus { 
+		border-color: #000 !important;
+		box-shadow:none;
+}
+    .input-box-message:focus { 
+		border-color: #000 !important;
+		box-shadow:none;
+}
+
+/*АНІМАЦІЯ*/
+   
+.navigation_link:hover {
+	transform: scale(1.1);
+    color:#000;
+}
+
+   nav a:hover.navigation_link::before {
+	content: "";
+    width:85px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    background-color: #000;
+    top: 40px;
+    left: 17px;  
+}
+
+.btn-box:hover {
+	background-color: #fff;
+	color: #000;
+	border-bottom: 1px solid #242424;
+	border-radius: 0px;
+}
+
+.foot-link:hover {
+	background-color:#000;
+}
+
+.buttongetimg:hover {
+	background-image: url(../image/button-get-2.png);
+	background-size: cover;
+	transition: 1s ease-out 1s;
+}
+.buttongetimg:hover {
+	cursor: pointer;
+}
+
+.contact-paragraph:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Mодальна кнопка отримати */
+
+.modl-head {
+	background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.modl-body {
+	color: #242424;
+	background-color: #d4d4d4;
+	font-size: 20px;
+	font-family:'Raleway','sans-serif';
+}
+
+.modl-foote {
+	background-color: #d4d4d4;
+	border: 2px;
+}
+.btn-foote {
+	background-color: #000;
+    border: 1px solid #fff;
+	font-family:'Raleway','sans-serif';
+}
+
+.btn-foote:hover {
+	background-color: #808080;
+}
+
+.btn-head {
+	position: absolute;
+    padding: 0;
+    top: -10px;
+    right: -10px;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(61, 61, 61, 0.8);
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 20px;
+    -webkit-transition: background-color ease .7s;
+    -moz-transition: background-color ease .7s;
+    -ms-transition: background-color ease .7s;
+    -o-transition: background-color ease .7s;
+    transition: background-color ease .7s;
+} 
+
+.btn-head::before {
+	color: rgba(255, 255, 255, 0.9);
+    content: '\2715';
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.btn-head:hover {
+	background-color: #ff4d4d;
+}
+
+
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+
+.carousel-box {
+  position:relative;
+  width:960px;
+}
+
+ .carousel-container {
+  height:550px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position:relative;
+  margin-bottom:0.5em;
+  font-size:12px;
+}
+
+.carousel-image {
+  	border:0;
+	display:block;
+	width: 700px;
+	height: 500px;
+}
+
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  border:2px solid #5d5d5d;
+  cursor:pointer;
+}
+
+.tracker-summation-container {
+  display: none;
+}
+.tracker-individual-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:210px;
+  padding:0;
+  margin:0;
+}
+.tracker-individual-container li {
+  list-style:none;
+	display: none;
+}
+.tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:white;
+  text-align:center;
+  background-color:#DDD;
+}
+.tracker-individual-container .tracker-individual-blip-selected {
+  color:white;
+  font-weight:bold;
+  background-color:#000;
+}
+
+/* GOOGLE MAP */
+
+#map { 
+	height: 600px; 
+	width: 100%; 
+}
+
+/* MODAL CALL BACK*/
+
+.modal-box {
+	width: 300px;
+    height: 300px;
+	margin: 100px auto;
+}
+
+.modal-prgph {
+	margin: 50px auto 10px auto;
+}
+ 
+.modal-btn {
+	margin: 10px auto;
+	background-color: #00d3ee;
+    border-color: #00d3ee;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.modal-foto {
+	height: 130px;
+    width: 130px;
+    position: absolute;
+    left: 80px;
+    top: -65px;
+    box-shadow: -8px 4px 5px 1px rgba(0,0,0,0.5);
+}
+
+/* кнопка на верх */
+	
+.top-button {
+	position: fixed;
+    left: 30px;
+    bottom: 40px;
+	display: none;
+	z-index: 999;
+}
+
+.topbuttonimg {
+    border-radius: 50px;
+}
+
+
+ 
+/*МЕДІАЗАПРОСИ*/
+ 
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+	.logo-img {
+		display: block;
+		margin: 0px auto;
+	}
+	.block-img {
+    height: 60px;
+    margin-top: 20px;
+    }
+	
+	.main-img {
+    margin: 50px auto 0px auto;
+    display: block;
+    }
+	
+	.main-paragraph {
+    text-align: center;
+    margin: 39px auto 50px auto;
+    font-size: 20px;
+    font-family:'Raleway','sans-serif';
+	}
+	
+	.main-thimble {
+    display: block;
+    margin: 80px auto 20px auto;
+    }
+
+	.carousel-image {
+    border:0;
+    display:block;
+	width: 500px;
+	height: 300px;
+}
+
+	.carousel-container {
+    height: 350px;
+    background-color:  rgba(36, 36, 36, 0.5);
+    position: relative;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+    
+
+}
+	
+	.input-box-message {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px 0px 50px 70px;
+    margin-left: 70px;
+}
+	
+	.btn-box {
+    width: 327px;
+    height: 70px;
+    background-color: #242424;
+    border: none;
+    color: #ffffff;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    margin: 81px 0px 50px 70px;
+}
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	.logo-img {
+		display: block;
+		margin: 0px auto;
+	}
+	.block-img {
+    height: 60px;
+    margin-top: 20px;
+    }
+	
+	.navigation_link {
+		margin: 0px auto;
+	}
+	
+	.navigation {
+		margin: 0px auto;
+	}
+	
+	.main-img {
+    margin: 50px auto 0px auto;
+    display: block;
+    }
+	
+	.main-paragraph {
+    text-align: center;
+    margin: 39px auto 50px auto;
+    font-size: 20px;
+    font-family:'Raleway','sans-serif';
+	}
+	
+	.main-thimble {
+    display: block;
+    margin: 80px auto 20px auto;
+    }
+	
+	.bgrnd-about-us {
+     background-image: url(../image/abot-us-foto2.jpg);
+    background-size: cover;
+	}
+	
+	.carousel-image {
+    border:0;
+    display:block;
+	width: 400px;
+	height: 200px;
+}
+	
+	.carousel-container {
+    height: 250px;
+    background-color:  rgba(36, 36, 36, 0.5);
+    position: relative;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+}
+	
+	.contact-paragraph {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 21px;
+    letter-spacing: 0.25px;
+}
+	
+	.input-box-message {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px 0px 50px 70px;
+    margin-left: 70px;
+}
+	
+	.btn-box {
+    width: 327px;
+    height: 70px;
+    background-color: #242424;
+    border: none;
+    color: #ffffff;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    margin: 81px 0px 50px 70px;
+}
+	
+	.foot-box {
+	background-color: #242424;
+	height: 70px;
+}
+	
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+	
+	.container-img {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+	.logo-img {
+	display: block;
+	margin: 0px auto;
+	width: 200px;
+	}
+	.block-img {
+    height: 100px;
+    margin-top: 20px;
+	}
+	
+	.navigation {
+	display: none;
+	}
+	.navigation_link_responsiv{
+    display: block;
+	position: relative;
+	color: #000;
+    font-size: 35px;
+	text-align: center;
+    }
+	
+	.block-link-responsiv {
+	display: block;
+	margin: 0px auto;
+	width: 350px;
+	}
+	.article-title {
+    margin-top: 30px;
+    font-size: 55px;
+    text-align: center;
+	}
+	
+	.main-img {
+    margin: 50px auto 0px auto;
+    display: block;
+    }
+	
+	.main-paragraph {
+    text-align: center;
+    margin: 39px auto 50px auto;
+    font-size: 20px;
+    font-family:'Raleway''sans-serif';
+	}
+	
+	.main-thimble {
+    display: block;
+    margin: 80px auto 20px auto;
+    }
+	
+	.bgrnd-about-us {
+     background-image: url(../image/abot-us-foto2.jpg);
+    background-size: cover;
+	}
+
+	.carousel-container {
+		display: none;
+	}
+	
+	.slider-box {
+	padding: 0px;
+	display:block;
+}
+	
+	.input-box-message {
+    font-family:'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px 0px 50px 70px;
+    margin-left: 70px;
+}
+	
+	.btn-box {
+    width: 327px;
+    height: 70px;
+    background-color: #242424;
+    border: none;
+    color: #ffffff;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    margin: 81px 0px 50px 70px;
+}
+	.foot-box {
+	background-color: #242424;
+	height: 70px;
+}
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 540px) {
+	.container-img {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+   
+	.logo-img {
+		display: block;
+		margin: 0px auto;
+		width: 200px;
+	}
+	.block-img {
+    height: 100px;
+    margin-top: 20px;
+	}
+	
+	.navigation {
+		display: none;
+	}
+	.navigation_link_responsiv{
+    display: block;
+	position: relative;
+	color: #000;
+    font-size: 30px;
+	text-align:center;
+    }
+	
+	.block-link-responsiv {
+	display: block;
+	margin: 0px auto;
+	width: 350px;
+    }
+	.article-title {
+    margin-top: 30px;
+    font-size: 55px;
+    text-align: center;
+    }
+	
+	.main-img {
+    margin: 50px auto 0px auto;
+    display: block;
+    }
+	
+	.main-paragraph {
+    text-align: center;
+    margin: 39px auto 50px auto;
+    font-size: 20px;
+    font-family:'Raleway','sans-serif';
+	}
+	
+	.main-thimble {
+    display: block;
+    margin: 80px auto 20px auto;
+    }
+	
+	.bgrnd-about-us {
+     background-image: url(../image/abot-us-foto2.jpg);
+    background-size: cover;
+	}
+	.carousel-container {
+		display: none;
+	}
+
+	.slider-box {
+	padding: 0px;
+	display:block;
+}
+	
+	.input-box-message {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px 0px 50px 40px;
+    margin-left: 12px;
+}
+	
+	.btn-box {
+    width: 327px;
+    height: 70px;
+    background-color: #242424;
+    border: none;
+    color: #ffffff;
+    font-family:'Raleway', 'sans-serif';
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    margin:0px;
+}
+	.input-box {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px ;
+}
+	.input-box {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px 0px 50px 10px;
+
+}
+	.input-box-message {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-radius: 0px;
+    margin: 0px 0px 50px 10px;
+    margin-left: 12px;
+
+}
+	
+	.btn-box {
+    height: 70px;
+    background-color: #242424;
+    border: none;
+    color: #ffffff;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+    margin: 0px;
+	}
+
+	.foot-exsmall {
+		margin-top: 20px;
+	}
+	
+	.contact-box, .contact-title  {
+		margin: 0px;
+	}
+	
+	.foot-box {
+	background-color: #242424;
+	height: auto;
+}
+	
+	.buttongetimg {
+    background-image: url(../image/butoon-get.png);
+    background-size: cover;
+    width: 270px;
+    height: 57px;
+    margin: 0px auto;
+    transition: 1s ease-out 1s;
+    overflow: hidden;
+	margin: 40px auto 130px auto;
+}
+
+
+
+
+/* KEYFRAMS Carousel */
+
+	@keyframes pulse {0% {transform: scale(0.9);opacity: 1;}
+  50% {transform: scale(1); opacity: 1; }   
+  100% {transform: scale(0.9);opacity: 1;}}
+ @-webkit-keyframes pulse {0% {-webkit-transform: scale(0.95);opacity: 1;}
+  50% {-webkit-transform: scale(1);opacity: 1;}   
+  100% {-webkit-transform: scale(0.95);opacity: 1;}}
+@keyframes tossing {
+  0% {transform: rotate(-8deg);}
+  50% {transform: rotate(8deg);}
+  100% {transform: rotate(-8deg);}}
+@-webkit-keyframes tossing {
+  0% {-webkit-transform: rotate(-8deg);}
+  50% {-webkit-transform: rotate(8deg);}
+  100% {-webkit-transform: rotate(-8deg);}}
+@-moz-keyframes circle-anim {
+  0% {-moz-transform: rotate(0deg) scale(0.5) skew(1deg);opacity: .1;-moz-opacity: .1;-webkit-opacity: .1;-o-opacity: .1;}
+  30% {-moz-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .5;-moz-opacity: .5;-webkit-opacity: .5;-o-opacity: .5;}
+  100% {-moz-transform: rotate(0deg) scale(1) skew(1deg);opacity: .6;-moz-opacity: .6;-webkit-opacity: .6;-o-opacity: .1;}}
+@-webkit-keyframes circle-anim {
+  0% {-webkit-transform: rotate(0deg) scale(0.5) skew(1deg);-webkit-opacity: .1;}
+  30% {-webkit-transform: rotate(0deg) scale(0.7) skew(1deg);-webkit-opacity: .5;}
+  100% {-webkit-transform: rotate(0deg) scale(1) skew(1deg);-webkit-opacity: .1;}}
+@-o-keyframes circle-anim {
+  0% {-o-transform: rotate(0deg) kscale(0.5) skew(1deg);-o-opacity: .1;}
+  30% {-o-transform: rotate(0deg) scale(0.7) skew(1deg);-o-opacity: .5;}
+  100% {-o-transform: rotate(0deg) scale(1) skew(1deg);-o-opacity: .1;}}
+@keyframes circle-anim {
+  0% {transform: rotate(0deg) scale(0.5) skew(1deg);opacity: .1;}
+  30% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .5;}
+  100% {transform: rotate(0deg) scale(1) skew(1deg);
+opacity: .1;}}
+@-moz-keyframes circle-fill-anim {
+  0% {-moz-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+  50% {-moz-transform: rotate(0deg) -moz-scale(1) skew(1deg);opacity: .2;}
+  100% {-moz-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+@-webkit-keyframes circle-fill-anim {
+  0% {-webkit-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;  }
+  50% {-webkit-transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;  }
+  100% {-webkit-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+@-o-keyframes circle-fill-anim {
+  0% {-o-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+  50% {-o-transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;}
+  100% {-o-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+@keyframes circle-fill-anim {
+  0% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+  50% {transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;}
+  100% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
