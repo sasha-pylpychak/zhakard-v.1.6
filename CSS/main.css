@@ -158,8 +158,8 @@ header {
 }
 
 .modal-price {
-	border-radius: 17px;
 	border: transparent;
+	height: 800px;
 }
 
 .btn-price {
