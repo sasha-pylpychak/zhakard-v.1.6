@@ -39,18 +39,12 @@
                 <p class="article-paragraph">знижка 5% на усі послуги</p>
             </div>
         </div>
-        
         <!-- МОДАЛЬНА КНОПКА ОТРИМАТИ -->
-        
     <div class="row">
-      <div class="col-xl-4 offset-xl-4">
-               
-				<!-- Button trigger modal -->
-       
+      <div class="col-xl-4 offset-xl-4">   
+			<!-- Button trigger modal -->
         <button type="button" class="buttongetimg" data-toggle="modal" data-target="#exampleModal"></button>
-
            <!-- Modal -->
-
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -68,15 +62,12 @@
 					</div>
 				</div>
 			</div>
-		</div>
-                
+		</div>     
       </div>
     </div>
     </header>
     <main class="container-fluid main-box">
-       
         <!-- CЕКЦІЯ ПОСЛУГИ -->
-        
         <div id="poslugi" class="row">
             <div class="col-xl-4">
                 <img class="main-img" src="image/needle-logo.png" alt="needle">
@@ -128,9 +119,7 @@
                 <h3 class="about-us-title">Про нас</h3>
                 <p class="about-us-paragraph">Ми, професійні майстри Швейної  майстерні-ательє «Жакард», розпочали свою діяльність у 2014 році. Наша майстерня – це якість у виконанні поставленого завдання, порядність у ставленні до клієнта та просто улюблена робота. Ми зробимо та удосконалимо той вид одягу, в якому Вас щось не влаштовує.</p>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            	
-            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12"></div>
         </section>
         <!-- СЛАЙДЕР БООТСТРАП 4 -->
         <section id="slider-box" class="row">
@@ -208,9 +197,7 @@
                 </div>
             </div>
         </section>
-        
         <!-- СЕКЦІЯ КОНТАКТИ -->
-        
         <section id="contact" class="row">
             <div class="col-xl-12">
                 <h3 class="contact-title">КОНТАКТИ</h3>
@@ -277,7 +264,6 @@
                     <form action="#" onclick="return false;" method="POST" role="form">
                         <div class="modal-header">
                             <h5 class="modal-title modal-prgph" id="exampleModalLabel">Ваш номер?</h5>
-                            
                         </div>
                         <div class="modal-body">
                             <input type="tel" placeholder="Enter phone" id="phone" name="phone" class="form-control" required="required" autofocus title="">
@@ -297,10 +283,10 @@
                 <img src="image/logo-header.png" alt="logo" class="foot-logo">
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4  foot-exsmall">
-                <div class="social-box">
+                <!-- <div class="social-box">
                     <a class="foot-link" href="#"><img class="foot-social" src="image/1000px-ei-sc-facebook-svg.png" alt="faccebook"></a>
                     <a class="foot-link" href="#"><img class="foot-social" src="image/instagram-logo.png" alt="instagram"></a>
-                </div>
+                </div> -->
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4  foot-exsmall">
                 <p class="copyright">&copy;2018</p>
@@ -311,9 +297,7 @@
     	<div id="top-button">
     	  <a id="back-top" class="top-button" href="#gotoheader"><img class="topbuttonimg" src="image/top-buttons.png" alt="top-button"></a>
     	</div>
-    
     	<!-- ПІДКЛЮЧЕННЯ СКРИПТ КВЕРІ І ТД -->
-    	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -322,9 +306,7 @@
     <script src="js/jquery.featureCarousel.min.js"></script>
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
     <script  src="ajax/api.js"></script>
-    
-    <!-- СКРІПТ КАРУСЕЛЬ -->
-    
+        <!-- СКРІПТ КАРУСЕЛЬ -->
     <script>
     $(document).ready(function() {
         var carousel = $("#carousel").featureCarousel({
@@ -345,17 +327,13 @@
         });
     });
     </script>
-    
     <!-- СКРІПТ КАРТА -->
-    
     <script>
-    function initMap() { var uluru = {lat: 50.7541200, lng: 25.3578582 }; var map = new google.maps.Map(document.getElementById('map'), { zoom: 17, center: uluru }); var marker = new google.maps.Marker({ position: uluru, map: map }); }
+    function initMap() { var uluru = {lat: 50.754138, lng: 25.357833 }; var map = new google.maps.Map(document.getElementById('map'), { zoom: 17, center: uluru }); var marker = new google.maps.Marker({ position: uluru, map: map }); }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzWsWrYC6OuhkjgN2UHRj0G-TMVjKmiNQ&callback=initMap">
     </script>
-    
     <!-- СКРІПТ ПЛАВНИЙ ПЕРЕХІД ЯКОРЬ ССИЛОК -->
-    
     <script>
     $(document).ready(function() {
         $("#navigation").on("click", "a", function(event) {
@@ -366,9 +344,7 @@
         });
     });
     </script>
-    
     <!-- СКРІПТ ПЛАВНИЙ ПЕРЕХІД КНОПКА НА ВЕРХ -->
-    
     <script>
     $(document).ready(function() {
         $("#top-button").on("click", "a", function(event) {
@@ -379,16 +355,13 @@
         });
     });
     </script>
-    
     <script>
     jQuery(function($) {
         $.mask.definitions['~'] = '[+-]';
         $("#phone").mask("+38(099) 999-99-99");
     });
     </script>
-    
     <!-- СКрипт кнопка на верх -->
-    
    <script>
 		jQuery(function(f){
 		var element = f('#back-top');
@@ -398,5 +371,4 @@
 		});
    </script>
 </body>
-
 </html>

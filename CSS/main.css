@@ -1,34 +1,32 @@
 
 @font-face {
-			font-family: "RalewayRegular";
-			src: url("../CSS/fonts/RalewayRegular/RalewayRegular.eot");
-			src: url("../CSS/fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
-			url("../CSS/fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
-			url("../CSS/fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
+	font-family: "RalewayRegular";
+	src: url("../CSS/fonts/RalewayRegular/RalewayRegular.eot");
+	src: url("../CSS/fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+	url("../CSS/fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+	url("../CSS/fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
 @font-face {
-			font-family: "RalewaySemiBold";
-			src: url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.eot");
-			src: url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
-			url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"),
-			url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
-	}
+	font-family: "RalewaySemiBold";
+	src: url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.eot");
+	src: url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"),
+	url("../CSS/fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
 
  body {
-	font-family: 'Source Sans Pro', 'sans-serif';
-	
+	font-family: 'Source Sans Pro', 'sans-serif';	
 } 
 /*ХЕДЕР*/
 
 header {
 	background-image: url(../image/bez__tatoo.jpg);
 	background-size: cover;
-	
 }
 
 .logo-img {
@@ -66,7 +64,7 @@ header {
 	content: url(../image/phone.png);
 	position: absolute;
     left: 23px;
-     top: 12px;
+    top: 12px;
 }
 
 .block-link-responsiv {
@@ -188,13 +186,13 @@ header {
 	background-size:cover;
 }
 
-
 .about-us-title {
 	margin: 200px 0px 43px 70px;
 	font-size: 55px;
 	letter-spacing: 0.55px;
 	font-family: 'Raleway', 'sans-serif';
 }
+
 .about-us-paragraph {
 	margin: 0px 0px 200px 30px;
 	font-size: 25px;
@@ -205,8 +203,8 @@ header {
 /* СЛАЙДЕР БООТСТРАП 4*/
 
 .carousel-inner img {
-      width: 100%;
-      height: 100%;
+    width: 100%;
+    height: 100%;
   }
 
 .slider-box {
@@ -321,16 +319,20 @@ header {
 	font-size: 20px;
 	text-align: center;
 	margin: 0px;
-	
 }
 
 		/* CALL BACK BTN */
 
- #popup__toggle {
-	 bottom:25px;right:15px;position:fixed;z-index:999;
+#popup__toggle {
+	bottom:25px;
+	right:15px;
+	position:fixed;
+	z-index:999;
 }
 .img-circle {
-	background-color:#29AEE3;box-sizing:content-box;-webkit-box-sizing:content-box;
+	background-color:#29AEE3;
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box;
 }
 .circlephone {box-sizing:content-box;-webkit-box-sizing:content-box;border: 2px solid #29AEE3;width:150px;height:150px;bottom:-25px;right:10px;position:absolute;-webkit-border-radius:100%;-moz-border-radius: 100%;border-radius: 100%;opacity: .5;-webkit-animation: circle-anim 2.4s infinite ease-in-out !important;-moz-animation: circle-anim 2.4s infinite ease-in-out !important;-ms-animation: circle-anim 2.4s infinite ease-in-out !important;-o-animation: circle-anim 2.4s infinite ease-in-out !important;animation: circle-anim 2.4s infinite ease-in-out !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
 .circle-fill{box-sizing:content-box;-webkit-box-sizing:content-box;background-color:#29AEE3;width:100px;height:100px;bottom:0px;right:35px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;-webkit-animation: circle-fill-anim 2.3s infinite ease-in-out;-moz-animation: circle-fill-anim 2.3s infinite ease-in-out;-ms-animation: circle-fill-anim 2.3s infinite ease-in-out;-o-animation: circle-fill-anim 2.3s infinite ease-in-out;animation: circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
@@ -351,13 +353,14 @@ header {
    .input-box-message:-ms-input-placeholder      {color:#000;}
 
 
-   .input-box:focus { 
-		border-color: #000 !important;
-		box-shadow:none;
+.input-box:focus { 
+	border-color: #000 !important;
+	box-shadow:none;
 }
-    .input-box-message:focus { 
-		border-color: #000 !important;
-		box-shadow:none;
+
+.input-box-message:focus { 
+	border-color: #000 !important;
+	box-shadow:none;
 }
 
 /*АНІМАЦІЯ*/
@@ -367,7 +370,7 @@ header {
     color:#000;
 }
 
-   nav a:hover.navigation_link::before {
+nav a:hover.navigation_link::before {
 	content: "";
     width:85px;
     height: 2px;
@@ -469,7 +472,6 @@ header {
 	background-color: #ff4d4d;
 }
 
-
 /********************
  * FEATURE CAROUSEL *
  ********************/
@@ -479,7 +481,7 @@ header {
   width:960px;
 }
 
- .carousel-container {
+.carousel-container {
   height:550px;
   background-color: rgba(0, 0, 0, 0.8);
   position:relative;
@@ -505,6 +507,7 @@ header {
 .tracker-summation-container {
   display: none;
 }
+
 .tracker-individual-container {
   position:absolute;
   color:white;
@@ -513,10 +516,12 @@ header {
   padding:0;
   margin:0;
 }
+
 .tracker-individual-container li {
   list-style:none;
 	display: none;
 }
+
 .tracker-individual-container .tracker-individual-blip {
   margin:0 3px;
   padding:0 3px;
@@ -524,6 +529,7 @@ header {
   text-align:center;
   background-color:#DDD;
 }
+
 .tracker-individual-container .tracker-individual-blip-selected {
   color:white;
   font-weight:bold;
@@ -579,25 +585,23 @@ header {
 .topbuttonimg {
     border-radius: 50px;
 }
-
-
- 
 /*МЕДІАЗАПРОСИ*/
  
 @media screen and (min-width: 960px) and (max-width: 1200px) {
-	.logo-img {
-		display: block;
-		margin: 0px auto;
-	}
-	.block-img {
+.logo-img {
+	display: block;
+	margin: 0px auto;
+}
+
+.block-img {
     height: 60px;
     margin-top: 20px;
-    }
+}
 	
-	.main-img {
+.main-img {
     margin: 50px auto 0px auto;
     display: block;
-    }
+}
 	
 	.main-paragraph {
     text-align: center;
